@@ -1,0 +1,29 @@
+
+{
+  "manifest_version": 2,
+  "minimum_chrome_version": "69",
+  "homepage_url":"https://daniellvovsky.netlify.app/",
+  "name": "Quick Unsplash",
+  "description": "Find and download images from Unsplash",
+  "version": "1.0.0",
+
+  "icons": { "19": "img/icon_19.png",
+             "128": "img/icon_128.png",
+              "151": "img/icon_151.png" },
+  "content_security_policy": "script-src 'self' https://unpkg.com/react@16.7.0-alpha.0/umd/react.production.min.js https://unpkg.com/react-dom@16.7.0-alpha.0/umd/react-dom.production.min.js https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js; object-src 'self'",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html",
+    "default_icon": {
+      "19": "img/icon_19.png",
+      "128": "img/icon_128.png",
+      "151": "img/icon_151.png"
+    }
+  },
+  
+  "permissions": ["activeTab"]
+}
+
+
+
